@@ -17,7 +17,8 @@ div.header.fixed(class='top-0 z-50')
             div.py-1.text-base.cursor-pointer Collection 4
         div.uppercase.cursor-pointer Campagin
       div.flex.justify-center(class='md:w-fit w-full')
-        img(src="../assets/logo-lasol-white.png" class='md:h-[60px] h-[44px] shrink-0')
+        router-link(to='/')
+          img(src="../assets/logo-lasol-white.png" class='md:h-[60px] h-[44px] shrink-0 cursor-pointer')
       div.text-white(class='gap-[60px] md:flex hidden')
         div.uppercase.cursor-pointer Cart
         div.uppercase.cursor-pointer Search
@@ -34,8 +35,13 @@ el-drawer(v-model="isShowSideBar" direction='ltr' size='200px' :show-close='fals
 
 <script setup lang="ts">
 import { ref } from 'vue';
+import { useRouter } from 'vue-router';
 
 const isShowSideBar = ref(false)
+
+const router = useRouter()
+
+
 </script>
 
 <style scoped>
