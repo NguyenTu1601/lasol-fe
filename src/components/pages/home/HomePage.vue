@@ -9,25 +9,25 @@ div.overflow-hidden
           img.imgne.absolute(src="./assets/home_item_1_1.png" class='w-full z-20 aspect-[0.8] object-cover h-full overflow-hidden' )
           img.absolute(src="./assets/home_item_1_2.png" class='w-full z-10 aspect-[0.8] object-cover h-full overflow-hidden' )
         div(class='mt-[20px] text-white detail pb-[10px] cursor-pointer')
-          div.text-center.uppercase(class='font-bold md:text-[18px] text-xs') "quần đi làm"
+          div.text-center.uppercase(class='font-bold md:text-[16px] text-xs') "quần đi làm"
           div.text-center.uppercase.status.opacity-0(class='text-xs mt-1 font-light capitalize') in stock
-          div.text-center.uppercase.price.opacity-0(class='md:text-[20px] text-sm mt-1') 640.000
+          div.text-center.uppercase.price.opacity-0(class='md:text-[16px] text-sm mt-1') 640.000
       div(class='md:w-1/4 w-[40%]')
         div.imgContainer.relative(class='w-full aspect-[0.8]')
           img.imgne.absolute(src="./assets/home_item_2_1.png" class='w-full z-20 aspect-[0.8] object-cover h-full overflow-hidden' )
           img.absolute(src="./assets/home_item_2_2.png" class='w-full z-10 aspect-[0.8] object-cover h-full overflow-hidden' )
         div(class='mt-[20px] text-white detail pb-[10px] cursor-pointer')
-          div.text-center.uppercase(class='font-bold md:text-[18px] text-xs') "quần đi làm"
+          div.text-center.uppercase(class='font-bold md:text-[16px] text-xs') "quần đi làm"
           div.text-center.uppercase.status.opacity-0(class='text-xs mt-1 font-light capitalize') in stock
-          div.text-center.uppercase.price.opacity-0(class='md:text-[20px] text-sm mt-1') 640.000
+          div.text-center.uppercase.price.opacity-0(class='md:text-[16px] text-sm mt-1') 640.000
       div(class='w-1/4 md:block hidden')
         div.imgContainer.relative(class='w-full aspect-[0.8]')
           img.imgne.absolute(src="./assets/home_item_3_1.png" class='w-full z-20 aspect-[0.8] object-cover h-full overflow-hidden' )
           img.absolute(src="./assets/home_item_3_2.png" class='w-full z-10 aspect-[0.8] object-cover h-full overflow-hidden' )
         div(class='mt-[20px] text-white detail pb-[10px] cursor-pointer')
-          div.text-center.uppercase(class='font-bold text-[18px]') "quần đi làm"
+          div.text-center.uppercase(class='font-bold text-[16px]') "quần đi làm"
           div.text-center.uppercase.status.opacity-0(class='text-xs mt-1 font-light capitalize') in stock
-          div.text-center.uppercase.price.opacity-0(class='text-[20px] mt-1') 640.000
+          div.text-center.uppercase.price.opacity-0(class='md:text-[16px] text-sm mt-1') 640.000
   div(class='md:mt-[60px] mt-[12px] collection' ref='swiper1')
     swiper( class="w-full mySwiper z-10" @swiper="onSwiper" :autoplay="{delay: 200,disableOnInteraction:false}" :loop="true" :speed="1500" :modules="modules" :allowSlideNext="true" :allowSlidePrev="true")
       swiper-slide
@@ -44,25 +44,25 @@ div.overflow-hidden
           img.imgne.absolute(src="./assets/home_item_4_1.png" class='w-full z-20 aspect-[0.8] object-cover h-full overflow-hidden' )
           img.absolute(src="./assets/home_item_4_2.png" class='w-full z-10 aspect-[0.8] object-cover h-full overflow-hidden' )
         div(class='mt-[20px] text-white detail pb-[10px] cursor-pointer')
-          div.text-center.uppercase(class='font-bold md:text-[18px] text-xs') "quần đi làm"
+          div.text-center.uppercase(class='font-bold md:text-[16px] text-xs') "quần đi làm"
           div.text-center.uppercase.status.opacity-0(class='text-xs mt-1 font-light capitalize') in stock
-          div.text-center.uppercase.price.opacity-0(class='md:text-[20px] text-sm mt-1') 640.000
+          div.text-center.uppercase.price.opacity-0(class='md:text-[16px] text-xs mt-1') 640.000
       div(class='md:w-1/4 w-[40%]')
         div.imgContainer.relative(class='w-full aspect-[0.8]')
           img.imgne.absolute(src="./assets/home_item_5_1.png" class='w-full z-20 aspect-[0.8] object-cover h-full overflow-hidden' )
           img.absolute(src="./assets/home_item_5_2.png" class='w-full z-10 aspect-[0.8] object-cover h-full overflow-hidden' )
         div(class='mt-[20px] text-white detail pb-[10px] cursor-pointer')
-          div.text-center.uppercase(class='font-bold md:text-[18px] text-xs') "quần đi làm"
+          div.text-center.uppercase(class='font-bold md:text-[16px] text-xs') "quần đi làm"
           div.text-center.uppercase.status.opacity-0(class='text-xs mt-1 font-light capitalize') in stock
-          div.text-center.uppercase.price.opacity-0(class='md:text-[20px] text-sm mt-1') 640.000
+          div.text-center.uppercase.price.opacity-0(class='md:text-[16px] text-xs mt-1') 640.000
       div(class='w-1/4 md:block hidden')
         div.imgContainer.relative(class='w-full aspect-[0.8]')
           img.imgne.absolute(src="./assets/home_item_6_1.png" class='w-full z-20 aspect-[0.8] object-cover h-full overflow-hidden' )
           img.absolute(src="./assets/home_item_6_2.png" class='w-full z-10 aspect-[0.8] object-cover h-full overflow-hidden' )
         div(class='mt-[20px] text-white detail pb-[10px] cursor-pointer')
-          div.text-center.uppercase(class='font-bold text-[18px]') "quần đi làm"
+          div.text-center.uppercase(class='font-bold md:text-[16px] text-xs') "quần đi làm"
           div.text-center.uppercase.status.opacity-0(class='text-xs mt-1 font-light capitalize') in stock
-          div.text-center.uppercase.price.opacity-0(class='text-[20px] mt-1') 640.000
+          div.text-center.uppercase.price.opacity-0(class='md:text-[16px] text-xs mt-1') 640.000
   div(class='md:mt-[60px] mt-[12px] collection' ref='swiper2')
     swiper( class="w-full mySwiper" @swiper="onSwiper2" :autoplay="{delay: 200,disableOnInteraction:false}" :loop="true" :speed="1500" :modules="modules" :allowSlideNext="true" :allowSlidePrev="true")
       swiper-slide
