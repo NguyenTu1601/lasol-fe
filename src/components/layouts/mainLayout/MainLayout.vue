@@ -2,7 +2,7 @@
 .min-h-screen.font-montserrat(class='!bg-black overflow-hidden')
   Header
   div.bg-black.overflow-hidden
-    div(class='md:mt-[100px] mt-[60px]')
+    div(class='md:mt-[80px] mt-[40px]')
       router-view
   Footer(class='mt-[60px]')
 </template>

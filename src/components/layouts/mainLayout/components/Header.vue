@@ -5,7 +5,7 @@ div.header.fixed(class='top-0 z-50')
     div.absolute.left-6(class='md:hidden block' @click="isShowSideBar = !isShowSideBar")
       img(src="../assets/menu.svg" class='w-6 h-6 shrink-0')
     div.w-full.flex.justify-between(class='px-[60px] items-center')
-      div.text-white(class='gap-[60px] md:flex hidden')
+      div.text-white(class='gap-[60px] md:flex hidden flex-1')
         div.uppercase.cursor-pointer Store
         el-popover(:show-arrow='false' trigger='hover' popper-class='p-0' popper-style='padding: 0;border: none;')
           template(#reference)
@@ -16,10 +16,10 @@ div.header.fixed(class='top-0 z-50')
             div.py-1.text-base.cursor-pointer Collection 3
             div.py-1.text-base.cursor-pointer Collection 4
         div.uppercase.cursor-pointer Campagin
-      div.flex.justify-center(class='md:w-fit w-full')
+      div.flex.justify-center(class='md:w-fit w-full flex-[2]')
         router-link(to='/')
-          img(src="../assets/logo-lasol-white.png" class='md:h-[60px] h-[44px] shrink-0 cursor-pointer')
-      div.text-white(class='gap-[60px] md:flex hidden')
+          img(src="../assets/logo-lasol-white.png" class='md:h-[40px] h-[24px] shrink-0 cursor-pointer')
+      div.text-white(class='gap-[60px] md:flex hidden flex-1 justify-end')
         div.uppercase.cursor-pointer Cart
         div.uppercase.cursor-pointer Search
 el-drawer(v-model="isShowSideBar" direction='ltr' size='200px' :show-close='false' :withHeader='false' modal-class='p-0')
